@@ -1,0 +1,28 @@
+.rs-container {
+    padding: 1rem;
+    display: flex;
+    gap: 0.6rem;
+    transition: all .3s ease-in;
+    margin: auto;
+    border-radius: 10px;
+    max-width: max-content;
+    flex-direction: column;
+}
+
+.rs-container:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+
+
+.rs-container:nth-child(3) {
+    font-size: 1.2rem;
+    color: var(--blue);
+}
+
+.rs-container:nth-last-child(1) {
+    font-size: .7rem;
+    width: 15rem;
+    color: #8c8b8b;
+}

@@ -1,0 +1,17 @@
+.App {
+  background-color: var(--black);
+  color: var(--secondary);
+}
+
+.white-bg {
+  min-width: 20rem;
+  min-height: 20rem;
+  background-color: rgba(247, 247, 247, 0.664);
+  filter: blur(100px);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 99;
+  left: 20px;
+  top: 10px;
+
+}

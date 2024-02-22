@@ -1,0 +1,17 @@
+.r-title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.r-title > h3 {
+    font-size: 1.5rem;
+    color: orange;
+}
+
+.r-title > h1 {
+    color: var(--blue);
+    font-size: 2rem;
+    font-weight: 700;
+}
