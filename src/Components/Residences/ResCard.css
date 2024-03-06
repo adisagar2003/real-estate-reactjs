@@ -15,7 +15,6 @@
     
 }
 
-
 .rs-container:nth-child(3) {
     font-size: 1.2rem;
     color: var(--blue);
@@ -25,4 +24,9 @@
     font-size: .7rem;
     width: 15rem;
     color: #8c8b8b;
+}
+
+.rs-container > img {
+    width: 250px;
+    max-height: 200px;
 }

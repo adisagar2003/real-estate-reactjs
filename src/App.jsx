@@ -9,9 +9,8 @@ import Residences from './Components/Residences/Residences'
 import Value from './Components/Value/Value'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
-
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
