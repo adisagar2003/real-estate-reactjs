@@ -7,11 +7,10 @@ import ResCard from './ResCard';
 
 import { generateClient } from "aws-amplify/api";
 import { listProperties } from "../../graphql/queries";
-
 const client =  generateClient();
+
 function Residences() {
     const [propertyData, setPropertyData] = React.useState([]);
-
     async function fetchProperties() {
         try {
             const propertyData = await client.graphql({
@@ -47,11 +46,13 @@ function Residences() {
             pagination={{clickable: true}}
             scrollbar={{draggable: true}}
             >
-                {propertyData.map((element)=>{
-                    return (<SwiperSlide>
-                        <ResCard  heading={element.name} desc={element.description} image={element.image} price={element.price}/>
+            {propertyData.map((element)=>{
+
+                return (<SwiperSlide>
+                            <ResCard  heading={element.name} desc={element.description} image={element.image} price={element.price}/>
                         </SwiperSlide>)
-                })}
+
+            })}
             </Swiper>
         </div>  
     </div>
